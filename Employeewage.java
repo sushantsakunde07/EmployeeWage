@@ -5,7 +5,6 @@ public class Employeewage {
     public static final int isPartTime =2;
     public static final int empRatePerHour =20;
     public static final int numberOfWorkingDays =20;
-
     public static final int maximumHoursInMonth =100;
     public static int employeeDailyWage() {
         int employeehour=0;
