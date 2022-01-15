@@ -25,8 +25,8 @@ public class EmployeeWage {
             //System.out.println("days : " + totalworkingdays + "employee hour:" + employeehour);
         }
         int Totalemployeewage = Totalemployeehours * empRatePerHour;
-        System.out.println("Total empolyee hour:" + Totalemployeehours);
-        System.out.println("Total empolyee wage:" + Totalemployeewage);
+        System.out.println("Total empolyee hour: " + Totalemployeehours);
+        System.out.println("Total empolyee wage: " + Totalemployeewage);
         return isFullTime;
     }
 
