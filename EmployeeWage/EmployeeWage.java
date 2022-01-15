@@ -27,7 +27,7 @@ public class EmployeeWage {
         int Totalemployeewage = Totalemployeehours * empRatePerHour;
         System.out.println("Total empolyee hour: " + Totalemployeehours);
         System.out.println("Total empolyee wage: " + Totalemployeewage);
-        return isFullTime;
+        return Totalemployeewage;
     }
 
     public static void main(String[] args) {
